@@ -127,7 +127,7 @@
                   </div>
                   <!-- /.feature-sections -->
                   <div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-10 offset-md-1 col-md-10 col-sm-12 col-12 mt30">
-                      <form>
+                      <form name="contact" method="POST" data-netlify="true">
                           <!-- service-form -->
                           <div class="service-form">
                               <div class="row">
@@ -137,35 +137,35 @@
                                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
                                       <div class="form-group service-form-group">
                                           <label class="control-label sr-only" for="name"></label>
-                                          <input id="name" type="text" placeholder="First Name" class="form-control" required>
+                                          <input id="name" type="text" placeholder="First Name" class="form-control" name="fname" required>
                                           <div class="form-icon"><i class="fa fa-user"></i></div>
                                       </div>
                                   </div>
                                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12  ">
                                       <div class="form-group service-form-group">
                                           <label class="control-label sr-only" for="name"></label>
-                                          <input id="name" type="text" placeholder="Last Name" class="form-control" required>
+                                          <input id="name" type="text" placeholder="Last Name" class="form-control" name="lname" required>
                                           <div class="form-icon"><i class="fa fa-user"></i></div>
                                       </div>
                                   </div>
                                   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
                                       <div class="form-group service-form-group">
                                           <label class="control-label sr-only" for="email"></label>
-                                          <input id="email" type="email" placeholder="Email" class="form-control" required>
+                                          <input id="email" type="email" placeholder="Email" class="form-control" name="email" required>
                                           <div class="form-icon"><i class="fa fa-envelope"></i></div>
                                       </div>
                                   </div>
                                   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
                                       <div class="form-group service-form-group">
                                           <label class="control-label sr-only" for="phone"></label>
-                                          <input id="phone" type="text" placeholder="Phone" class="form-control" required>
+                                          <input id="phone" type="text" placeholder="Phone" class="form-control" name="phone" required>
                                           <div class="form-icon"><i class="fa fa-phone"></i></div>
                                       </div>
                                   </div>
                                   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
                                       <div class="form-group service-form-group">
                                           <label class="control-label sr-only" for="website"></label>
-                                          <input id="Street Address" type="text" placeholder="Address" class="form-control" required>
+                                          <input id="Street Address" type="text" placeholder="Address" class="form-control" name="address" required>
                                           <div class="form-icon"><i class="fa fa-link"></i></div>
                                       </div>
                                   </div>
@@ -185,7 +185,7 @@
                                   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
                                       <div class="form-group">
                                           <label class="control-label sr-only" for="textarea"></label>
-                                          <textarea class="form-control" id="textarea" name="textarea" rows="3" placeholder="Messages"></textarea>
+                                          <textarea class="form-control" id="textarea" name="message" rows="3" placeholder="Messages"></textarea>
                                       </div>
                                   </div>
                                   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
